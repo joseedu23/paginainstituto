@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#marco {
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-box-shadow: 10px 10px 7px #050505;
+    box-shadow: 10px 10px 7px #050505;
+}
+.encabezadopri {
+    height: 300px;
+    background-image: url(../../../Downloads/Captura%20de%20pantalla%202023-10-11%20155300.jpg);
+}
+
+.titulopri {
+    color: #EEF1EC;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-left: 50px;
+    width: 200px;
+    text-shadow: 5px 5px 4px #050505;
+    float: left;
+}
+.logopri {
+    float: right;
+    left: 0px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+
+}
+.limpiar {
+    clear: both;
+}
+.menu {
+    height: 80px;
+    background-image: -webkit-linear-gradient(270deg,rgba(218,248,0,0.95) 27.46%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(218,248,0,0.95) 27.46%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(218,248,0,0.95) 27.46%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(218,248,0,0.95) 27.46%,rgba(255,0,0,1.00) 100%);
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+}
+.menu ul li {
+    float: left;
+    list-style-type: none;
+    list-style-image: none;
+    position: relative;
+    border: 1px solid #060606;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    width: 277.2px;
+    height: 80px;
+    text-align: center;
+}
+.menu ul li a:hover {
+    background-image: -webkit-linear-gradient(270deg,rgba(236,227,3,1.00) 0%,rgba(69,63,10,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(236,227,3,1.00) 0%,rgba(69,63,10,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(236,227,3,1.00) 0%,rgba(69,63,10,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(236,227,3,1.00) 0%,rgba(69,63,10,1.00) 100%);
+}
+.contenidoini {
+    height: 600px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,176,7,1.00) 0%,rgba(192,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,176,7,1.00) 0%,rgba(192,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,176,7,1.00) 0%,rgba(192,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,176,7,1.00) 0%,rgba(192,0,0,1.00) 100%);
+}
+.pie {
+    background-color: #746969;
+    height: 100px;
+}
+.titulo1ini {
+    color: #0D0C0C;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.parrafo1ini {
+    float: left;
+    width: 500px;
+    height: 400px;
+    background-color: #8E2021;
+    color: #F5EFEF;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgini1 img {
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
